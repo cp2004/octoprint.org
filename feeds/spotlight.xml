@@ -5,9 +5,9 @@
     
     <link>https://octoprint.org/blog/</link>
     <atom:link href="https://octoprint.org/feeds/spotlight.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Nov 2020 06:12:41 -0600</pubDate>
-    <lastBuildDate>Tue, 03 Nov 2020 06:12:41 -0600</lastBuildDate>
-    <generator>Jekyll v3.8.7</generator>
+    <pubDate>Mon, 22 Mar 2021 14:47:26 -0500</pubDate>
+    <lastBuildDate>Mon, 22 Mar 2021 14:47:26 -0500</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
     
       <item>
         <title>OctoPrint around the World</title>

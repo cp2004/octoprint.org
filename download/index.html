@@ -17,22 +17,22 @@
     
 
     <!--[if lt IE 9]>
-    <script src="/assets/js/html5shim.js?_=1604405561"></script>
+    <script src="/assets/js/html5shim.js?_=1616442446"></script>
     <![endif]-->
 
     <!-- Enable responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Le styles -->
-    <link rel="stylesheet" href="/assets/css/site.css?_=1604405561">
-    <link rel="stylesheet" href="/assets/css/bootstrap-responsive.css?_=1604405561">
-    <link rel="stylesheet" href="/assets/css/prettify.css?_=1604405561">
-    <link rel="stylesheet" href="/assets/css/lightbox.css?_=1604405561">
-    <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css?_=1604405561">
-    <link rel="stylesheet" href="/assets/css/syntax.css?_=1604405561">
+    <link rel="stylesheet" href="/assets/css/site.css?_=1616442446">
+    <link rel="stylesheet" href="/assets/css/bootstrap-responsive.css?_=1616442446">
+    <link rel="stylesheet" href="/assets/css/prettify.css?_=1616442446">
+    <link rel="stylesheet" href="/assets/css/lightbox.css?_=1616442446">
+    <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css?_=1616442446">
+    <link rel="stylesheet" href="/assets/css/syntax.css?_=1616442446">
 
-    <link rel="stylesheet" type="text/css" href="/assets/vendor/slick-1.5.9/slick.css?_=1604405561"/>
-    <link rel="stylesheet" type="text/css" href="/assets/vendor/slick-1.5.9/slick-theme.css?_=1604405561"/>
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/slick-1.5.9/slick.css?_=1616442446"/>
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/slick-1.5.9/slick-theme.css?_=1616442446"/>
 
 
     <!-- Le fav and touch icons -->
@@ -241,26 +241,48 @@ recommended hardware are not officially supported.</p>
 issues were observed, caused by the WiFi interface when bandwidth is utilized (e.g. the webcam is streamed), negatively 
 impacting printing quality. <a href="https://github.com/guysoft/OctoPi/issues/318#issuecomment-284762963">See also here</a>.</p>
 
-<p>There have been some reports regarding current revisions of the <strong>Raspberry Pi 4 1/2/4 GB refusing to boot</strong> with the below
-OctoPi 0.17.0 image. If that affects you, please use an <a href="http://unofficialpi.org/Distros/OctoPi/nightly/">OctoPi 0.18 nightly image</a>.</p>
+<h2 id="images">Images</h2>
+
+<!--
+<div class="alert">
+    There have been some reports regarding current revisions of the <strong>Raspberry Pi 4 1/2/4 GB refusing to boot</strong> with the stable
+    OctoPi 0.17.0 image. If that affects you, please try the OctoPi 0.18.0 release candidate.
+</div>
+-->
+
+<h3 id="stable">Stable</h3>
 
 <p>You can download the latest OctoPi image via the following button.</p>
 
 <div class="text-center">
-    <a class="btn btn-large btn-block" href="https://octopi.octoprint.org/latest" data-event-category="download" data-event-action="latest"><i class="fa fa-download-alt fa-lg"></i>&nbsp;&nbsp;Download&nbsp;OctoPi&nbsp;0.17.0</a>
-    <small>MD5Sum of the .zip: <code>8a550602b8ccc5df8381924757f88ab9</code></small><br />
-    <small><strong>Raspberry Pi 3B, 3B+ or 4B 1/2/4GB strongly recommended, Raspberry Pi Zero/Zero W not officially supported!</strong></small><br />
-    <small>Image compatible with Raspberry Pi A, B, A+, B+, 2B, 3A+, 3B, 3B+, 4B 1/2/4GB, Zero and Zero W.</small><br />
-    <small>Unknown compatibility to Raspberry Pi 4B 8GB. Only 32bit builds available.</small>
+    <a class="btn btn-large btn-primary btn-block" href="https://octopi.octoprint.org/latest" data-event-category="download" data-event-action="latest"><i class="fa fa-download-alt fa-lg"></i>&nbsp;&nbsp;Download&nbsp;OctoPi&nbsp;0.18.0</a>
+    <small>MD5: <code>43387c99873210969a21083520ec963b</code></small><br />
+    <small>SHA256: <code>582ff1e5d8726e0a74c54cc75545dbcb6e09066ca172660bc961dd7501941e5b</code></small><br />
+    <small><strong>Raspberry Pi 3B, 3B+ or 4B 1/2/4/8GB strongly recommended, Raspberry Pi Zero/Zero W not officially supported!</strong></small><br />
+    <small>Image compatible with Raspberry Pi A, B, A+, B+, 2B, 3A+, 3B, 3B+, 4B 1/2/4/8GB, 400, Zero and Zero W.</small><br />
 </div>
-
-<p>or get the <a href="http://unofficialpi.org/Distros/OctoPi/nightly/">32bit 0.18 nightlies here</a> or the highly experimental <a href="http://unofficialpi.org/Distros/OctoPi/nightly-arm64/">64bit 0.18 nightlies for the RPi4 8GB here</a>.</p>
 
 <p>Alternatively simply buy one of the available</p>
 
 <div class="text-center">
     <a class="btn btn-large btn-block" href="/merch/#kits" data-event-category="download" data-event-action="kits">All-in-one OctoPrint Kits</a>
 </div>
+
+<!--
+### Release Candidate
+
+The current <strong>release candidate for 0.18.0</strong> can be found here: 
+
+<div class="text-center">
+    <a class="btn btn-large btn-block" href="https://github.com/guysoft/OctoPi/issues/710" data-event-category="download" data-event-action="next"><i class="fa fa-download-alt fa-lg"></i>&nbsp;&nbsp;OctoPi&nbsp;0.18.0rc2</a>
+    <small><strong>Raspberry Pi 3B, 3B+ or 4B strongly recommended, Raspberry Pi Zero/Zero W not officially supported!</strong></small><br>
+    <small>Image compatible with Raspberry Pi A, B, A+, B+, 2B, 3A+, 3B, 3B+, 4B 1/2/4/8GB, 400, Zero and Zero W.</small><br>
+</div>
+-->
+
+<h3 id="nightlies">Nightlies</h3>
+
+<p>You can also get the <a href="http://unofficialpi.org/Distros/OctoPi/nightly/">32bit nightlies here</a> or the highly experimental <a href="http://unofficialpi.org/Distros/OctoPi/nightly-arm64/">64bit nightlies here</a>.</p>
 
 <h2 id="setting-up-octopi">Setting up OctoPi</h2>
 
@@ -337,9 +359,9 @@ pages 50-51. You can find an excerpt <a href="/assets/download/MagPi36_OctoPrint
 
 <ol>
   <li>Installing <a href="https://www.python.org/">Python</a> including <a href="https://pip.pypa.io/en/latest/installing.html">pip</a> and <a href="https://virtualenv.pypa.io/en/stable/installation.html">virtualenv</a>.
-<strong>Please note:</strong> While OctoPrint itself supports running under Python 3.7+ starting with version 1.4.0, many of the available plugins still are
-Python 2 only. If you want to make use of plugins from the plugin repository, you should for now still install OctoPrint under Python 2.7. Note that
-migrating to Python 3 at a later date is easily done.</li>
+<strong>Please note:</strong> While OctoPrint itself supports running under both Python 2.7 and Python 3.6+, it is recommended that you install 
+using Python 3.6+ since Python 2 is now end-of-life. A majority of the plugins are compatible to Python 3 now, full details can be 
+found on the <a href="https://plugins.octoprint.org">plugin repository</a></li>
   <li>Creating a virtual environment somewhere: <code class="language-plaintext highlighter-rouge">virtualenv OctoPrint</code></li>
   <li>Installing OctoPrint <em>into that virtual environment</em>: <code class="language-plaintext highlighter-rouge">OctoPrint/bin/pip install OctoPrint</code></li>
   <li>OctoPrint may then be started through <code class="language-plaintext highlighter-rouge">./OctoPrint/bin/octoprint serve</code> or with an absolute path <code class="language-plaintext highlighter-rouge">/path/to/OctoPrint/bin/octoprint serve</code></li>
@@ -349,7 +371,7 @@ migrating to Python 3 at a later date is easily done.</li>
 
 <h2 id="linux">Linux</h2>
 
-<p>For installing OctoPrint from source, please take a look at <a href="https://community.octoprint.org/t/setting-up-octoprint-on-a-raspberry-pi-running-raspbian/2337/">the setup instructions for Raspbian on the forum</a>.
+<p>For installing OctoPrint on Linux, please take a look at <a href="https://community.octoprint.org/t/setting-up-octoprint-on-a-raspberry-pi-running-raspbian/2337/">the setup instructions for Raspbian on the forum</a>.
 They should be pretty much identical on other Linux distributions.</p>
 
 <h2 id="windows">Windows</h2>
@@ -372,6 +394,12 @@ They should be pretty much identical on other Linux distributions.</p>
     <div class="sponsors">
         
             <div class="sponsor">
+                <a href="https://www.3dprinteros.com/3dprinteros-software-development-kit/?utm_source=referral&utm_medium=octoprint&utm_campaign=sdk_sponsorship" title="3DPrinterOS" data-event-category="sponsor" data-event-action="3DPrinterOS">
+                    <img src="/assets/img/sponsors/3dprinteros.png" alt="3DPrinterOS" title="3DPrinterOS">
+                </a>
+            </div>
+        
+            <div class="sponsor">
                 <a href="https://www.biqu.equipment/" title="BigTreeTech" data-event-category="sponsor" data-event-action="BigTreeTech">
                     <img src="/assets/img/sponsors/bigtreetech.png" alt="BigTreeTech" title="BigTreeTech">
                 </a>
@@ -384,8 +412,26 @@ They should be pretty much identical on other Linux distributions.</p>
             </div>
         
             <div class="sponsor">
+                <a href="https://www.creality3dofficial.com/" title="Creality" data-event-category="sponsor" data-event-action="Creality">
+                    <img src="/assets/img/sponsors/creality.png" alt="Creality" title="Creality">
+                </a>
+            </div>
+        
+            <div class="sponsor">
                 <a href="https://www.raise3d.com" title="Raise 3D" data-event-category="sponsor" data-event-action="Raise 3D">
                     <img src="/assets/img/sponsors/raise3d.png" alt="Raise 3D" title="Raise 3D">
+                </a>
+            </div>
+        
+            <div class="sponsor">
+                <a href="https://www.th3dstudio.com" title="TH3D Studio" data-event-category="sponsor" data-event-action="TH3D Studio">
+                    <img src="/assets/img/sponsors/th3d.png" alt="TH3D Studio" title="TH3D Studio">
+                </a>
+            </div>
+        
+            <div class="sponsor">
+                <a href="https://www.thespaghettidetective.com/" title="The Spaghetti Detective" data-event-category="sponsor" data-event-action="The Spaghetti Detective">
+                    <img src="/assets/img/sponsors/tsd.png" alt="The Spaghetti Detective" title="The Spaghetti Detective">
                 </a>
             </div>
         
@@ -428,6 +474,12 @@ They should be pretty much identical on other Linux distributions.</p>
     <div class="sponsors">
         
             <div class="sponsor">
+                <a href="https://www.3dprinteros.com/3dprinteros-software-development-kit/?utm_source=referral&utm_medium=octoprint&utm_campaign=sdk_sponsorship" title="3DPrinterOS" data-event-category="sponsor" data-event-action="3DPrinterOS">
+                    <img src="/assets/img/sponsors/3dprinteros.png" alt="3DPrinterOS" title="3DPrinterOS">
+                </a>
+            </div>
+        
+            <div class="sponsor">
                 <a href="https://www.biqu.equipment/" title="BigTreeTech" data-event-category="sponsor" data-event-action="BigTreeTech">
                     <img src="/assets/img/sponsors/bigtreetech.png" alt="BigTreeTech" title="BigTreeTech">
                 </a>
@@ -440,8 +492,26 @@ They should be pretty much identical on other Linux distributions.</p>
             </div>
         
             <div class="sponsor">
+                <a href="https://www.creality3dofficial.com/" title="Creality" data-event-category="sponsor" data-event-action="Creality">
+                    <img src="/assets/img/sponsors/creality.png" alt="Creality" title="Creality">
+                </a>
+            </div>
+        
+            <div class="sponsor">
                 <a href="https://www.raise3d.com" title="Raise 3D" data-event-category="sponsor" data-event-action="Raise 3D">
                     <img src="/assets/img/sponsors/raise3d.png" alt="Raise 3D" title="Raise 3D">
+                </a>
+            </div>
+        
+            <div class="sponsor">
+                <a href="https://www.th3dstudio.com" title="TH3D Studio" data-event-category="sponsor" data-event-action="TH3D Studio">
+                    <img src="/assets/img/sponsors/th3d.png" alt="TH3D Studio" title="TH3D Studio">
+                </a>
+            </div>
+        
+            <div class="sponsor">
+                <a href="https://www.thespaghettidetective.com/" title="The Spaghetti Detective" data-event-category="sponsor" data-event-action="The Spaghetti Detective">
+                    <img src="/assets/img/sponsors/tsd.png" alt="The Spaghetti Detective" title="The Spaghetti Detective">
                 </a>
             </div>
         
@@ -492,26 +562,48 @@ recommended hardware are not officially supported.</p>
 issues were observed, caused by the WiFi interface when bandwidth is utilized (e.g. the webcam is streamed), negatively 
 impacting printing quality. <a href="https://github.com/guysoft/OctoPi/issues/318#issuecomment-284762963">See also here</a>.</p>
 
-<p>There have been some reports regarding current revisions of the <strong>Raspberry Pi 4 1/2/4 GB refusing to boot</strong> with the below
-OctoPi 0.17.0 image. If that affects you, please use an <a href="http://unofficialpi.org/Distros/OctoPi/nightly/">OctoPi 0.18 nightly image</a>.</p>
+<h2 id="images">Images</h2>
+
+<!--
+<div class="alert">
+    There have been some reports regarding current revisions of the <strong>Raspberry Pi 4 1/2/4 GB refusing to boot</strong> with the stable
+    OctoPi 0.17.0 image. If that affects you, please try the OctoPi 0.18.0 release candidate.
+</div>
+-->
+
+<h3 id="stable">Stable</h3>
 
 <p>You can download the latest OctoPi image via the following button.</p>
 
 <div class="text-center">
-    <a class="btn btn-large btn-block" href="https://octopi.octoprint.org/latest" data-event-category="download" data-event-action="latest"><i class="fa fa-download-alt fa-lg"></i>&nbsp;&nbsp;Download&nbsp;OctoPi&nbsp;0.17.0</a>
-    <small>MD5Sum of the .zip: <code>8a550602b8ccc5df8381924757f88ab9</code></small><br />
-    <small><strong>Raspberry Pi 3B, 3B+ or 4B 1/2/4GB strongly recommended, Raspberry Pi Zero/Zero W not officially supported!</strong></small><br />
-    <small>Image compatible with Raspberry Pi A, B, A+, B+, 2B, 3A+, 3B, 3B+, 4B 1/2/4GB, Zero and Zero W.</small><br />
-    <small>Unknown compatibility to Raspberry Pi 4B 8GB. Only 32bit builds available.</small>
+    <a class="btn btn-large btn-primary btn-block" href="https://octopi.octoprint.org/latest" data-event-category="download" data-event-action="latest"><i class="fa fa-download-alt fa-lg"></i>&nbsp;&nbsp;Download&nbsp;OctoPi&nbsp;0.18.0</a>
+    <small>MD5: <code>43387c99873210969a21083520ec963b</code></small><br />
+    <small>SHA256: <code>582ff1e5d8726e0a74c54cc75545dbcb6e09066ca172660bc961dd7501941e5b</code></small><br />
+    <small><strong>Raspberry Pi 3B, 3B+ or 4B 1/2/4/8GB strongly recommended, Raspberry Pi Zero/Zero W not officially supported!</strong></small><br />
+    <small>Image compatible with Raspberry Pi A, B, A+, B+, 2B, 3A+, 3B, 3B+, 4B 1/2/4/8GB, 400, Zero and Zero W.</small><br />
 </div>
-
-<p>or get the <a href="http://unofficialpi.org/Distros/OctoPi/nightly/">32bit 0.18 nightlies here</a> or the highly experimental <a href="http://unofficialpi.org/Distros/OctoPi/nightly-arm64/">64bit 0.18 nightlies for the RPi4 8GB here</a>.</p>
 
 <p>Alternatively simply buy one of the available</p>
 
 <div class="text-center">
     <a class="btn btn-large btn-block" href="/merch/#kits" data-event-category="download" data-event-action="kits">All-in-one OctoPrint Kits</a>
 </div>
+
+<!--
+### Release Candidate
+
+The current <strong>release candidate for 0.18.0</strong> can be found here: 
+
+<div class="text-center">
+    <a class="btn btn-large btn-block" href="https://github.com/guysoft/OctoPi/issues/710" data-event-category="download" data-event-action="next"><i class="fa fa-download-alt fa-lg"></i>&nbsp;&nbsp;OctoPi&nbsp;0.18.0rc2</a>
+    <small><strong>Raspberry Pi 3B, 3B+ or 4B strongly recommended, Raspberry Pi Zero/Zero W not officially supported!</strong></small><br>
+    <small>Image compatible with Raspberry Pi A, B, A+, B+, 2B, 3A+, 3B, 3B+, 4B 1/2/4/8GB, 400, Zero and Zero W.</small><br>
+</div>
+-->
+
+<h3 id="nightlies">Nightlies</h3>
+
+<p>You can also get the <a href="http://unofficialpi.org/Distros/OctoPi/nightly/">32bit nightlies here</a> or the highly experimental <a href="http://unofficialpi.org/Distros/OctoPi/nightly-arm64/">64bit nightlies here</a>.</p>
 
 <h2 id="setting-up-octopi">Setting up OctoPi</h2>
 
@@ -588,9 +680,9 @@ pages 50-51. You can find an excerpt <a href="/assets/download/MagPi36_OctoPrint
 
 <ol>
   <li>Installing <a href="https://www.python.org/">Python</a> including <a href="https://pip.pypa.io/en/latest/installing.html">pip</a> and <a href="https://virtualenv.pypa.io/en/stable/installation.html">virtualenv</a>.
-<strong>Please note:</strong> While OctoPrint itself supports running under Python 3.7+ starting with version 1.4.0, many of the available plugins still are
-Python 2 only. If you want to make use of plugins from the plugin repository, you should for now still install OctoPrint under Python 2.7. Note that
-migrating to Python 3 at a later date is easily done.</li>
+<strong>Please note:</strong> While OctoPrint itself supports running under both Python 2.7 and Python 3.6+, it is recommended that you install 
+using Python 3.6+ since Python 2 is now end-of-life. A majority of the plugins are compatible to Python 3 now, full details can be 
+found on the <a href="https://plugins.octoprint.org">plugin repository</a></li>
   <li>Creating a virtual environment somewhere: <code class="language-plaintext highlighter-rouge">virtualenv OctoPrint</code></li>
   <li>Installing OctoPrint <em>into that virtual environment</em>: <code class="language-plaintext highlighter-rouge">OctoPrint/bin/pip install OctoPrint</code></li>
   <li>OctoPrint may then be started through <code class="language-plaintext highlighter-rouge">./OctoPrint/bin/octoprint serve</code> or with an absolute path <code class="language-plaintext highlighter-rouge">/path/to/OctoPrint/bin/octoprint serve</code></li>
@@ -600,7 +692,7 @@ migrating to Python 3 at a later date is easily done.</li>
 
 <h2 id="linux">Linux</h2>
 
-<p>For installing OctoPrint from source, please take a look at <a href="https://community.octoprint.org/t/setting-up-octoprint-on-a-raspberry-pi-running-raspbian/2337/">the setup instructions for Raspbian on the forum</a>.
+<p>For installing OctoPrint on Linux, please take a look at <a href="https://community.octoprint.org/t/setting-up-octoprint-on-a-raspberry-pi-running-raspbian/2337/">the setup instructions for Raspbian on the forum</a>.
 They should be pretty much identical on other Linux distributions.</p>
 
 <h2 id="windows">Windows</h2>
@@ -639,15 +731,15 @@ They should be pretty much identical on other Linux distributions.</p>
                       <h2>Recent Posts</h2>
                       <div class="recent-posts">
                           
-                          <div><a class="post-link" href="/blog/2020/09/24/octoprint-on-air-34/">OctoPrint On Air #34</a><br><small>24 Sep 2020</small></div>
+                          <div><a class="post-link" href="/blog/2021/03/16/octoprint-on-air-38/">OctoPrint On Air #38</a><br><small>16 Mar 2021</small></div>
                           
-                          <div><a class="post-link" href="/blog/2020/09/10/upgrade-to-py3/">Upgrade your OctoPrint install to Python 3!</a><br><small>10 Sep 2020</small></div>
+                          <div><a class="post-link" href="/blog/2021/02/01/octoprint-on-air-37/">OctoPrint On Air #37</a><br><small>01 Feb 2021</small></div>
                           
-                          <div><a class="post-link" href="/blog/2020/08/06/new-release-1.4.2/">New release: 1.4.2</a><br><small>06 Aug 2020</small></div>
+                          <div><a class="post-link" href="/blog/2021/01/25/octopi-release-0-18-0/">New OctoPi Release: 0.18.0</a><br><small>25 Jan 2021</small></div>
                           
-                          <div><a class="post-link" href="/blog/2020/08/04/new-release-1.4.1/">New release: 1.4.1</a><br><small>04 Aug 2020</small></div>
+                          <div><a class="post-link" href="/blog/2021/01/19/new-release-1.5.3/">New release: 1.5.3</a><br><small>19 Jan 2021</small></div>
                           
-                          <div><a class="post-link" href="/blog/2020/07/29/automating-octoprints-release-tests/">Automating OctoPrint's release tests</a><br><small>29 Jul 2020</small></div>
+                          <div><a class="post-link" href="/blog/2021/01/11/octopi-release-candidate-0-18-0rc2/">OctoPi Release Candidate 0.18.0rc2 needs testers!</a><br><small>11 Jan 2021</small></div>
                           
                       </div>
                   </div>
@@ -674,17 +766,17 @@ They should be pretty much identical on other Linux distributions.</p>
 
 <a href="#top" class="to-top" title="Back to top" data-scroll><i class="fa fa-arrow-up fa-2x"></i></a>
 
-<script src="/assets/js/jquery-1.9.1.min.js?_=1604405561"></script>
-<script src="/assets/js/underscore-1.4.4.min.js?_=1604405561"></script>
-<script src="/assets/js/prettify-r224.js?_=1604405561"></script>
-<script src="/assets/js/holder-2.9.3.min.js?_=1604405561"></script>
-<script src="/assets/vendor/slick-1.5.9/slick.min.js?_=1604405561"></script>
-<script src="/assets/js/bootstrap.min.js?_=1604405561"></script>
-<script src="/assets/js/lightbox.min.js?_=1604405561"></script>
-<script src="/assets/js/smooth-scroll.min.js?_=1604405561"></script>
-<script src="/assets/js/site.js?_=1604405561"></script>
-<script src="/assets/js/yt-with-consent.js?_=1604405561"></script>
-<script src="/assets/js/autotrack.js?_=1604405561"></script>
+<script src="/assets/js/jquery-1.9.1.min.js?_=1616442446"></script>
+<script src="/assets/js/underscore-1.4.4.min.js?_=1616442446"></script>
+<script src="/assets/js/prettify-r224.js?_=1616442446"></script>
+<script src="/assets/js/holder-2.9.3.min.js?_=1616442446"></script>
+<script src="/assets/vendor/slick-1.5.9/slick.min.js?_=1616442446"></script>
+<script src="/assets/js/bootstrap.min.js?_=1616442446"></script>
+<script src="/assets/js/lightbox.min.js?_=1616442446"></script>
+<script src="/assets/js/smooth-scroll.min.js?_=1616442446"></script>
+<script src="/assets/js/site.js?_=1616442446"></script>
+<script src="/assets/js/yt-with-consent.js?_=1616442446"></script>
+<script src="/assets/js/autotrack.js?_=1616442446"></script>
 
 <!-- Google Analytics -->
 <script>

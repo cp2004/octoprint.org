@@ -4,10 +4,70 @@
     <title>OctoBlog</title>
     <link>https://octoprint.org/blog/</link>
     <atom:link href="https://octoprint.org/feeds/octoblog.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Nov 2020 06:12:41 -0600</pubDate>
-    <lastBuildDate>Tue, 03 Nov 2020 06:12:41 -0600</lastBuildDate>
-    <generator>Jekyll v3.8.7</generator>
+    <pubDate>Mon, 22 Mar 2021 14:47:26 -0500</pubDate>
+    <lastBuildDate>Mon, 22 Mar 2021 14:47:26 -0500</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
     
+    <item>
+      <title>OctoPrint On Air #38</title>
+      <description>
+        <![CDATA[
+          The thirty-eighth episode of a monthly live broadcast for Patrons which was recorded on March 16th 2021.
+        ]]>
+      </description>
+      <pubDate>Tue, 16 Mar 2021 13:00:00 -0500</pubDate>
+      <link>https://octoprint.org/blog/2021/03/16/octoprint-on-air-38/</link>
+      <guid isPermaLink="true">https://octoprint.org/blog/2021/03/16/octoprint-on-air-38/</guid>
+      <category>OctoPrint On Air</category>
+    </item>
+    <item>
+      <title>OctoPrint On Air #37</title>
+      <description>
+        <![CDATA[
+          The thirty-seventh episode of a monthly live broadcast for Patrons which aired live on January 29th 2021.
+        ]]>
+      </description>
+      <pubDate>Mon, 01 Feb 2021 05:25:00 -0600</pubDate>
+      <link>https://octoprint.org/blog/2021/02/01/octoprint-on-air-37/</link>
+      <guid isPermaLink="true">https://octoprint.org/blog/2021/02/01/octoprint-on-air-37/</guid>
+      <category>OctoPrint On Air</category>
+    </item>
+    <item>
+      <title>Turning a static website more dynamic</title>
+      <description>
+        <![CDATA[
+          Since its creation in 2015 the OctoPrint plugin repository has been a static page powered by Jekyll. Read how over the course of 2020 it got more dynamic through the power of GitHub Actions.
+        ]]>
+      </description>
+      <pubDate>Tue, 15 Dec 2020 08:15:00 -0600</pubDate>
+      <link>https://octoprint.org/blog/2020/12/15/turning-a-static-website-more-dynamic/</link>
+      <guid isPermaLink="true">https://octoprint.org/blog/2020/12/15/turning-a-static-website-more-dynamic/</guid>
+      <category>OctoPrint Core and Plugin Development</category>
+    </item>
+    <item>
+      <title>OctoPrint On Air #36</title>
+      <description>
+        <![CDATA[
+          The thirty-sixth episode of a monthly live broadcast for Patrons which aired live on December 11th 2020.
+        ]]>
+      </description>
+      <pubDate>Mon, 14 Dec 2020 10:40:00 -0600</pubDate>
+      <link>https://octoprint.org/blog/2020/12/14/octoprint-on-air-36/</link>
+      <guid isPermaLink="true">https://octoprint.org/blog/2020/12/14/octoprint-on-air-36/</guid>
+      <category>OctoPrint On Air</category>
+    </item>
+    <item>
+      <title>OctoPrint On Air #35</title>
+      <description>
+        <![CDATA[
+          The thirty-fifth episode of a monthly live broadcast for Patrons which aired live on October 30th 2020.
+        ]]>
+      </description>
+      <pubDate>Thu, 05 Nov 2020 07:30:00 -0600</pubDate>
+      <link>https://octoprint.org/blog/2020/11/05/octoprint-on-air-35/</link>
+      <guid isPermaLink="true">https://octoprint.org/blog/2020/11/05/octoprint-on-air-35/</guid>
+      <category>OctoPrint On Air</category>
+    </item>
     <item>
       <title>OctoPrint On Air #34</title>
       <description>
@@ -66,66 +126,6 @@
       <pubDate>Thu, 25 Jun 2020 11:29:00 -0500</pubDate>
       <link>https://octoprint.org/blog/2020/06/25/octoprint-on-air-32/</link>
       <guid isPermaLink="true">https://octoprint.org/blog/2020/06/25/octoprint-on-air-32/</guid>
-      <category>OctoPrint On Air</category>
-    </item>
-    <item>
-      <title>OctoPrint On Air #31</title>
-      <description>
-        <![CDATA[
-          The thirtyfirst episode of a monthly live broadcast for Patrons which aired live on May 8th 2020.
-        ]]>
-      </description>
-      <pubDate>Thu, 14 May 2020 07:55:00 -0500</pubDate>
-      <link>https://octoprint.org/blog/2020/05/14/octoprint-on-air-31/</link>
-      <guid isPermaLink="true">https://octoprint.org/blog/2020/05/14/octoprint-on-air-31/</guid>
-      <category>OctoPrint On Air</category>
-    </item>
-    <item>
-      <title>Official Discord server launched!</title>
-      <description>
-        <![CDATA[
-          OctoPrint now has an official Discord server, find the invite at discord.octoprint.org!
-        ]]>
-      </description>
-      <pubDate>Thu, 07 May 2020 05:00:00 -0500</pubDate>
-      <link>https://octoprint.org/blog/2020/05/07/discord-server-launched/</link>
-      <guid isPermaLink="true">https://octoprint.org/blog/2020/05/07/discord-server-launched/</guid>
-      <category>OctoPrint News</category>
-    </item>
-    <item>
-      <title>Help to fight the Corona Crisis using your 3D printer</title>
-      <description>
-        <![CDATA[
-          A guest post by Oliver Dathe on how you can help in the fight against the ongoing SARS-CoV-2 pandemic. If you have any printing capacities free, please consider joining the community effort!
-        ]]>
-      </description>
-      <pubDate>Tue, 31 Mar 2020 08:00:00 -0500</pubDate>
-      <link>https://octoprint.org/blog/2020/03/31/3d-printing-against-corona/</link>
-      <guid isPermaLink="true">https://octoprint.org/blog/2020/03/31/3d-printing-against-corona/</guid>
-      <category>OctoPrint News</category>
-    </item>
-    <item>
-      <title>Announcement: OctoPrint On Air #30 LIVE</title>
-      <description>
-        <![CDATA[
-          On Friday, March 27th at 17:00 CET the next OctoPrint On Air episode will air live - this time for everyone, as a chance to virtually get together as a community in these troubling times!
-        ]]>
-      </description>
-      <pubDate>Thu, 19 Mar 2020 09:30:00 -0500</pubDate>
-      <link>https://octoprint.org/blog/2020/03/19/octoprint-on-air-30-announcement/</link>
-      <guid isPermaLink="true">https://octoprint.org/blog/2020/03/19/octoprint-on-air-30-announcement/</guid>
-      <category>OctoPrint On Air</category>
-    </item>
-    <item>
-      <title>OctoPrint On Air #29</title>
-      <description>
-        <![CDATA[
-          The twenty ninth episode of a monthly live broadcast for Patrons which aired live on February 21st 2020.
-        ]]>
-      </description>
-      <pubDate>Thu, 27 Feb 2020 04:40:00 -0600</pubDate>
-      <link>https://octoprint.org/blog/2020/02/27/octoprint-on-air-29/</link>
-      <guid isPermaLink="true">https://octoprint.org/blog/2020/02/27/octoprint-on-air-29/</guid>
       <category>OctoPrint On Air</category>
     </item>
   </channel>
